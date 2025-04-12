@@ -31,15 +31,7 @@ eigenvalues, eigenvectors = np.linalg.eig(matrix)
 print("Eigen values are", eigenvalues,"and Eigen Vectors are", eigenvectors)
 
 ```
-# Define the matrix
-matrix = np.array([[2, 2], 
-                   [1, 3]])
 
-# Compute eigenvalues and eigenvectors
-eigenvalues, eigenvectors = np.linalg.eig(matrix)
-
-# Display the results
-print("Eigen values are", eigenvalues,"and Eigen Vectors are", eigenvectors)
 
 
 ## Output:
